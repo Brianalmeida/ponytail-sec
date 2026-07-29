@@ -1,0 +1,13 @@
+{
+  "name": "ponytail-sec",
+  "version": "0.2.2",
+  "description": "Ponytail security companion and audit: diff-scoped hardening for active development, plus full-project security scans.",
+  "author": {
+    "name": "Andy Pitcher",
+    "url": "https://github.com/andypitcher"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/andypitcher/ponytail-sec",
+  "repository": "https://github.com/andypitcher/ponytail-sec",
+  "contextFileName": "GEMINI.md"
+}
