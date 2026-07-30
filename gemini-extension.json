@@ -9,5 +9,6 @@
   "license": "MIT",
   "homepage": "https://github.com/andypitcher/ponytail-sec",
   "repository": "https://github.com/andypitcher/ponytail-sec",
+  "keywords": ["security", "hardening", "owasp", "kubernetes", "rbac", "supply-chain"]
   "contextFileName": "GEMINI.md"
 }
