@@ -71,6 +71,18 @@ Pinned to a version:
 /plugin install ponytail-sec@ponytail-sec
 ```
 
+### Gemini CLI
+
+Latest:
+```bash
+gemini extensions install https://github.com/andypitcher/ponytail-sec
+```
+
+For development/local testing:
+```bash
+gemini extensions link .
+```
+
 ## How it works
 
 Three passes, in order:

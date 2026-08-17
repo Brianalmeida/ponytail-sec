@@ -52,3 +52,11 @@ jobs:
         env:
           DISABLE_AUTOUPDATER: "1"
         run: claude plugin validate . --strict
+      
+      - name: "Install Gemini CLI"
+         env:
+            GEMINI_VERSION: "0.53.1"
+         run: npm install -g @google/gemini-cli@$GEMINI_VERSION --ignore-scripts
+
+      - name: "Link Gemini extension"
+        run: gemini extensions link . --consent
